@@ -14,7 +14,8 @@
           "src/main/resources/assets/beyondtheend/models/item/sporestem_wood.json",
           "src/main/resources/assets/beyondtheend/models/block/sporestem_wood.json"
         ]
-      }
+      },
+      "path": "~/Sporestem"
     },
     {
       "name": "SporestemLog",
@@ -30,7 +31,8 @@
           "src/main/resources/assets/beyondtheend/models/item/sporestem_log.json",
           "src/main/resources/assets/beyondtheend/blockstates/sporestem_log.json"
         ]
-      }
+      },
+      "path": "~/Sporestem"
     },
     {
       "name": "SporestemPlanks",
@@ -46,7 +48,8 @@
           "src/main/resources/assets/beyondtheend/models/block/sporestem_planks.json",
           "src/main/java/net/mcreator/beyondtheend/block/SporestemPlanksBlock.java"
         ]
-      }
+      },
+      "path": "~/Sporestem"
     },
     {
       "name": "SporestemLeaves",
@@ -62,7 +65,8 @@
           "src/main/java/net/mcreator/beyondtheend/block/SporestemLeavesBlock.java",
           "src/main/resources/assets/beyondtheend/models/block/sporestem_leaves.json"
         ]
-      }
+      },
+      "path": "~/Sporestem"
     },
     {
       "name": "SporestemStairs",
@@ -80,7 +84,8 @@
           "src/main/resources/assets/beyondtheend/models/block/sporestem_stairs.json",
           "src/main/resources/assets/beyondtheend/models/block/sporestem_stairs_inner.json"
         ]
-      }
+      },
+      "path": "~/Sporestem"
     },
     {
       "name": "SporestemSlab",
@@ -98,7 +103,8 @@
           "src/main/resources/assets/beyondtheend/models/item/sporestem_slab.json",
           "src/main/java/net/mcreator/beyondtheend/block/SporestemSlabBlock.java"
         ]
-      }
+      },
+      "path": "~/Sporestem"
     },
     {
       "name": "SporestemFence",
@@ -116,7 +122,8 @@
           "src/main/resources/assets/beyondtheend/blockstates/sporestem_fence.json",
           "src/main/resources/assets/beyondtheend/models/item/sporestem_fence.json"
         ]
-      }
+      },
+      "path": "~/Sporestem"
     },
     {
       "name": "SporestemFenceGate",
@@ -135,7 +142,8 @@
           "src/main/resources/assets/beyondtheend/models/block/sporestem_fence_gate_wall.json",
           "src/main/java/net/mcreator/beyondtheend/block/SporestemFenceGateBlock.java"
         ]
-      }
+      },
+      "path": "~/Sporestem"
     },
     {
       "name": "SporestemPressurePlate",
@@ -152,7 +160,8 @@
           "src/main/java/net/mcreator/beyondtheend/block/SporestemPressurePlateBlock.java",
           "src/main/resources/assets/beyondtheend/models/item/sporestem_pressure_plate.json"
         ]
-      }
+      },
+      "path": "~/Sporestem"
     },
     {
       "name": "SporestemButton",
@@ -170,7 +179,8 @@
           "src/main/resources/assets/beyondtheend/models/block/sporestem_button.json",
           "src/main/resources/assets/beyondtheend/models/block/sporestem_button_pressed.json"
         ]
-      }
+      },
+      "path": "~/Sporestem"
     },
     {
       "name": "SporestemItemsTag",
@@ -183,7 +193,8 @@
         "files": [
           "src/main/resources/data/forge/tags/items/sporestem_log.json"
         ]
-      }
+      },
+      "path": "~/Sporestem"
     },
     {
       "name": "SporestemWoodRecipe",
@@ -196,7 +207,8 @@
         "files": [
           "src/main/resources/data/beyondtheend/recipes/sporestem_wood_recipe.json"
         ]
-      }
+      },
+      "path": "~/Sporestem"
     },
     {
       "name": "SporestemPlanksRecipe",
@@ -209,7 +221,8 @@
         "files": [
           "src/main/resources/data/beyondtheend/recipes/sporestem_planks_recipe.json"
         ]
-      }
+      },
+      "path": "~/Sporestem"
     },
     {
       "name": "SporestemStairsRecipe",
@@ -222,7 +235,8 @@
         "files": [
           "src/main/resources/data/beyondtheend/recipes/sporestem_stairs_recipe.json"
         ]
-      }
+      },
+      "path": "~/Sporestem"
     },
     {
       "name": "SporestemSlabRecipe",
@@ -235,7 +249,8 @@
         "files": [
           "src/main/resources/data/beyondtheend/recipes/sporestem_slab_recipe.json"
         ]
-      }
+      },
+      "path": "~/Sporestem"
     },
     {
       "name": "SporestemFenceRecipe",
@@ -248,7 +263,8 @@
         "files": [
           "src/main/resources/data/beyondtheend/recipes/sporestem_fence_recipe.json"
         ]
-      }
+      },
+      "path": "~/Sporestem"
     },
     {
       "name": "SporestemFenceGateRecipe",
@@ -261,7 +277,8 @@
         "files": [
           "src/main/resources/data/beyondtheend/recipes/sporestem_fence_gate_recipe.json"
         ]
-      }
+      },
+      "path": "~/Sporestem"
     },
     {
       "name": "SporestemPressurePlateRecipe",
@@ -274,7 +291,8 @@
         "files": [
           "src/main/resources/data/beyondtheend/recipes/sporestem_pressure_plate_recipe.json"
         ]
-      }
+      },
+      "path": "~/Sporestem"
     },
     {
       "name": "SporestemButtonRecipe",
@@ -287,7 +305,8 @@
         "files": [
           "src/main/resources/data/beyondtheend/recipes/sporestem_button_recipe.json"
         ]
-      }
+      },
+      "path": "~/Sporestem"
     },
     {
       "name": "SporestemStickRecipe",
@@ -300,7 +319,8 @@
         "files": [
           "src/main/resources/data/beyondtheend/recipes/sporestem_stick_recipe.json"
         ]
-      }
+      },
+      "path": "~/Sporestem"
     },
     {
       "name": "BeyondWillowWood",
@@ -316,7 +336,8 @@
           "src/main/resources/assets/beyondtheend/models/block/beyond_willow_wood.json",
           "src/main/resources/assets/beyondtheend/models/item/beyond_willow_wood.json"
         ]
-      }
+      },
+      "path": "~/Beyond Willow"
     },
     {
       "name": "BeyondWillowLog",
@@ -332,7 +353,8 @@
           "src/main/resources/assets/beyondtheend/models/item/beyond_willow_log.json",
           "src/main/resources/assets/beyondtheend/models/block/beyond_willow_log.json"
         ]
-      }
+      },
+      "path": "~/Beyond Willow"
     },
     {
       "name": "BeyondWillowPlanks",
@@ -348,7 +370,8 @@
           "src/main/resources/assets/beyondtheend/blockstates/beyond_willow_planks.json",
           "src/main/resources/assets/beyondtheend/models/block/beyond_willow_planks.json"
         ]
-      }
+      },
+      "path": "~/Beyond Willow"
     },
     {
       "name": "BeyondWillowLeaves",
@@ -364,7 +387,8 @@
           "src/main/java/net/mcreator/beyondtheend/block/BeyondWillowLeavesBlock.java",
           "src/main/resources/assets/beyondtheend/blockstates/beyond_willow_leaves.json"
         ]
-      }
+      },
+      "path": "~/Beyond Willow"
     },
     {
       "name": "BeyondWillowStairs",
@@ -382,7 +406,8 @@
           "src/main/resources/assets/beyondtheend/models/item/beyond_willow_stairs.json",
           "src/main/resources/assets/beyondtheend/blockstates/beyond_willow_stairs.json"
         ]
-      }
+      },
+      "path": "~/Beyond Willow"
     },
     {
       "name": "BeyondWillowSlab",
@@ -400,7 +425,8 @@
           "src/main/resources/assets/beyondtheend/models/block/beyond_willow_slab_top.json",
           "src/main/resources/assets/beyondtheend/models/block/beyond_willow_slab_full.json"
         ]
-      }
+      },
+      "path": "~/Beyond Willow"
     },
     {
       "name": "BeyondWillowFence",
@@ -418,7 +444,8 @@
           "src/main/java/net/mcreator/beyondtheend/block/BeyondWillowFenceBlock.java",
           "src/main/resources/assets/beyondtheend/models/block/beyond_willow_fence.json"
         ]
-      }
+      },
+      "path": "~/Beyond Willow"
     },
     {
       "name": "BeyondWillowFenceGate",
@@ -437,7 +464,8 @@
           "src/main/resources/assets/beyondtheend/models/block/beyond_willow_fence_gate_wall.json",
           "src/main/resources/assets/beyondtheend/models/block/beyond_willow_fence_gate_wall_open.json"
         ]
-      }
+      },
+      "path": "~/Beyond Willow"
     },
     {
       "name": "BeyondWillowPressurePlate",
@@ -454,7 +482,8 @@
           "src/main/resources/assets/beyondtheend/models/block/beyond_willow_pressure_plate_down.json",
           "src/main/resources/assets/beyondtheend/models/item/beyond_willow_pressure_plate.json"
         ]
-      }
+      },
+      "path": "~/Beyond Willow"
     },
     {
       "name": "BeyondWillowButton",
@@ -472,7 +501,8 @@
           "src/main/resources/assets/beyondtheend/models/block/beyond_willow_button_pressed.json",
           "src/main/resources/assets/beyondtheend/models/block/beyond_willow_button.json"
         ]
-      }
+      },
+      "path": "~/Beyond Willow"
     },
     {
       "name": "BeyondWillowItemsTag",
@@ -485,7 +515,8 @@
         "files": [
           "src/main/resources/data/forge/tags/items/beyondwillow_log.json"
         ]
-      }
+      },
+      "path": "~/Beyond Willow"
     },
     {
       "name": "BeyondWillowWoodRecipe",
@@ -498,7 +529,8 @@
         "files": [
           "src/main/resources/data/beyondtheend/recipes/beyond_willow_wood_recipe.json"
         ]
-      }
+      },
+      "path": "~/Beyond Willow"
     },
     {
       "name": "BeyondWillowPlanksRecipe",
@@ -511,7 +543,8 @@
         "files": [
           "src/main/resources/data/beyondtheend/recipes/beyond_willow_planks_recipe.json"
         ]
-      }
+      },
+      "path": "~/Beyond Willow"
     },
     {
       "name": "BeyondWillowStairsRecipe",
@@ -524,7 +557,8 @@
         "files": [
           "src/main/resources/data/beyondtheend/recipes/beyond_willow_stairs_recipe.json"
         ]
-      }
+      },
+      "path": "~/Beyond Willow"
     },
     {
       "name": "BeyondWillowSlabRecipe",
@@ -537,7 +571,8 @@
         "files": [
           "src/main/resources/data/beyondtheend/recipes/beyond_willow_slab_recipe.json"
         ]
-      }
+      },
+      "path": "~/Beyond Willow"
     },
     {
       "name": "BeyondWillowFenceRecipe",
@@ -550,7 +585,8 @@
         "files": [
           "src/main/resources/data/beyondtheend/recipes/beyond_willow_fence_recipe.json"
         ]
-      }
+      },
+      "path": "~/Beyond Willow"
     },
     {
       "name": "BeyondWillowFenceGateRecipe",
@@ -563,7 +599,8 @@
         "files": [
           "src/main/resources/data/beyondtheend/recipes/beyond_willow_fence_gate_recipe.json"
         ]
-      }
+      },
+      "path": "~/Beyond Willow"
     },
     {
       "name": "BeyondWillowPressurePlateRecipe",
@@ -576,7 +613,8 @@
         "files": [
           "src/main/resources/data/beyondtheend/recipes/beyond_willow_pressure_plate_recipe.json"
         ]
-      }
+      },
+      "path": "~/Beyond Willow"
     },
     {
       "name": "BeyondWillowButtonRecipe",
@@ -589,7 +627,8 @@
         "files": [
           "src/main/resources/data/beyondtheend/recipes/beyond_willow_button_recipe.json"
         ]
-      }
+      },
+      "path": "~/Beyond Willow"
     },
     {
       "name": "BeyondWillowStickRecipe",
@@ -602,7 +641,8 @@
         "files": [
           "src/main/resources/data/beyondtheend/recipes/beyond_willow_stick_recipe.json"
         ]
-      }
+      },
+      "path": "~/Beyond Willow"
     }
   ],
   "variable_elements": [],
@@ -610,8 +650,8 @@
   "language_map": {
     "en_us": {
       "block.beyondtheend.beyond_willow_slab": "BeyondWillow Slab",
-      "block.beyondtheend.sporestem_fence_gate": "Sporestem Fence Gate",
       "block.beyondtheend.sporestem_fence": "Sporestem Fence",
+      "block.beyondtheend.sporestem_fence_gate": "Sporestem Fence Gate",
       "block.beyondtheend.beyond_willow_fence_gate": "BeyondWillow Fence Gate",
       "block.beyondtheend.beyond_willow_planks": "BeyondWillow Planks",
       "block.beyondtheend.beyond_willow_button": "BeyondWillow Button",
@@ -633,7 +673,16 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Sporestem",
+        "children": []
+      },
+      {
+        "name": "Beyond Willow",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "beyondtheend",
