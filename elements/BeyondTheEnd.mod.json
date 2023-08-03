@@ -1,0 +1,11 @@
+{
+  "_fv": 43,
+  "_type": "tab",
+  "definition": {
+    "name": "Beyond the End",
+    "icon": {
+      "value": "CUSTOM:TabIcon"
+    },
+    "showSearch": false
+  }
+}

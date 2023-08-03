@@ -325,7 +325,7 @@
     {
       "name": "BeyondWillowWood",
       "type": "block",
-      "sortid": 21,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "beyond_willow_wood",
@@ -342,7 +342,7 @@
     {
       "name": "BeyondWillowLog",
       "type": "block",
-      "sortid": 22,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "beyond_willow_log",
@@ -359,7 +359,7 @@
     {
       "name": "BeyondWillowPlanks",
       "type": "block",
-      "sortid": 23,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "beyond_willow_planks",
@@ -376,7 +376,7 @@
     {
       "name": "BeyondWillowLeaves",
       "type": "block",
-      "sortid": 24,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "beyond_willow_leaves",
@@ -393,7 +393,7 @@
     {
       "name": "BeyondWillowStairs",
       "type": "block",
-      "sortid": 25,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "beyond_willow_stairs",
@@ -412,7 +412,7 @@
     {
       "name": "BeyondWillowSlab",
       "type": "block",
-      "sortid": 26,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "beyond_willow_slab",
@@ -431,7 +431,7 @@
     {
       "name": "BeyondWillowFence",
       "type": "block",
-      "sortid": 27,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "beyond_willow_fence",
@@ -450,7 +450,7 @@
     {
       "name": "BeyondWillowFenceGate",
       "type": "block",
-      "sortid": 28,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "beyond_willow_fence_gate",
@@ -470,7 +470,7 @@
     {
       "name": "BeyondWillowPressurePlate",
       "type": "block",
-      "sortid": 29,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "beyond_willow_pressure_plate",
@@ -488,7 +488,7 @@
     {
       "name": "BeyondWillowButton",
       "type": "block",
-      "sortid": 30,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "beyond_willow_button",
@@ -643,6 +643,31 @@
         ]
       },
       "path": "~/Beyond Willow"
+    },
+    {
+      "name": "TabIcon",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tab_icon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondtheend/models/item/tab_icon.json",
+          "src/main/java/net/mcreator/beyondtheend/item/TabIconItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BeyondTheEnd",
+      "type": "tab",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beyond_the_end",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [],
@@ -650,20 +675,22 @@
   "language_map": {
     "en_us": {
       "block.beyondtheend.beyond_willow_slab": "BeyondWillow Slab",
-      "block.beyondtheend.sporestem_fence_gate": "Sporestem Fence Gate",
       "block.beyondtheend.sporestem_fence": "Sporestem Fence",
+      "block.beyondtheend.sporestem_fence_gate": "Sporestem Fence Gate",
       "block.beyondtheend.beyond_willow_fence_gate": "BeyondWillow Fence Gate",
       "block.beyondtheend.beyond_willow_planks": "BeyondWillow Planks",
       "block.beyondtheend.beyond_willow_button": "BeyondWillow Button",
       "block.beyondtheend.sporestem_leaves": "Sporestem Leaves",
       "block.beyondtheend.sporestem_wood": "Sporestem Wood",
       "block.beyondtheend.beyond_willow_fence": "BeyondWillow Fence",
+      "item.beyondtheend.tab_icon": "Tab Icon",
       "block.beyondtheend.sporestem_planks": "Sporestem Planks",
       "block.beyondtheend.beyond_willow_log": "BeyondWillow Log",
       "block.beyondtheend.beyond_willow_pressure_plate": "BeyondWillow Pressure Plate",
       "block.beyondtheend.beyond_willow_wood": "BeyondWillow Wood",
       "block.beyondtheend.beyond_willow_stairs": "BeyondWillow Stairs",
       "block.beyondtheend.sporestem_pressure_plate": "Sporestem Pressure Plate",
+      "item_group.beyondtheend.beyond_the_end": "Beyond the End",
       "block.beyondtheend.sporestem_log": "Sporestem Log",
       "block.beyondtheend.sporestem_stairs": "Sporestem Stairs",
       "block.beyondtheend.sporestem_slab": "Sporestem Slab",
@@ -686,7 +713,7 @@
   },
   "workspaceSettings": {
     "modid": "beyondtheend",
-    "modName": "Beyond The End",
+    "modName": "Beyond the End",
     "version": "1.0.0",
     "author": "aahbr, MCreator",
     "websiteURL": "https://mcreator.net",
@@ -698,6 +725,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.19.4",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.beyondtheend",
     "lockBaseModFiles": false
   },

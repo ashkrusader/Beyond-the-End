@@ -44,12 +44,12 @@ public class BeyondtheendModBlocks {
 	public static final RegistryObject<Block> SPORESTEM_FENCE_GATE = REGISTRY.register("sporestem_fence_gate", () -> new SporestemFenceGateBlock());
 	public static final RegistryObject<Block> SPORESTEM_PRESSURE_PLATE = REGISTRY.register("sporestem_pressure_plate", () -> new SporestemPressurePlateBlock());
 	public static final RegistryObject<Block> SPORESTEM_BUTTON = REGISTRY.register("sporestem_button", () -> new SporestemButtonBlock());
-	public static final RegistryObject<Block> BEYOND_WILLOW_WOOD = REGISTRY.register("beyond_willow_wood", () -> new BeyondWillowWoodBlock());
 	public static final RegistryObject<Block> BEYOND_WILLOW_LOG = REGISTRY.register("beyond_willow_log", () -> new BeyondWillowLogBlock());
+	public static final RegistryObject<Block> BEYOND_WILLOW_WOOD = REGISTRY.register("beyond_willow_wood", () -> new BeyondWillowWoodBlock());
 	public static final RegistryObject<Block> BEYOND_WILLOW_PLANKS = REGISTRY.register("beyond_willow_planks", () -> new BeyondWillowPlanksBlock());
-	public static final RegistryObject<Block> BEYOND_WILLOW_LEAVES = REGISTRY.register("beyond_willow_leaves", () -> new BeyondWillowLeavesBlock());
 	public static final RegistryObject<Block> BEYOND_WILLOW_STAIRS = REGISTRY.register("beyond_willow_stairs", () -> new BeyondWillowStairsBlock());
 	public static final RegistryObject<Block> BEYOND_WILLOW_SLAB = REGISTRY.register("beyond_willow_slab", () -> new BeyondWillowSlabBlock());
+	public static final RegistryObject<Block> BEYOND_WILLOW_LEAVES = REGISTRY.register("beyond_willow_leaves", () -> new BeyondWillowLeavesBlock());
 	public static final RegistryObject<Block> BEYOND_WILLOW_FENCE = REGISTRY.register("beyond_willow_fence", () -> new BeyondWillowFenceBlock());
 	public static final RegistryObject<Block> BEYOND_WILLOW_FENCE_GATE = REGISTRY.register("beyond_willow_fence_gate", () -> new BeyondWillowFenceGateBlock());
 	public static final RegistryObject<Block> BEYOND_WILLOW_PRESSURE_PLATE = REGISTRY.register("beyond_willow_pressure_plate", () -> new BeyondWillowPressurePlateBlock());
