@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "beyondtheend:enderite"
+    },
+    "1": {
+      "item": "beyondtheend:enderite"
+    },
+    "2": {
+      "item": "beyondtheend:enderite"
+    },
+    "3": {
+      "item": "beyondtheend:enderite"
+    },
+    "5": {
+      "item": "beyondtheend:enderite"
+    },
+    "6": {
+      "item": "beyondtheend:enderite"
+    },
+    "8": {
+      "item": "beyondtheend:enderite"
+    }
+  },
+  "result": {
+    "item": "beyondtheend:enderite_armor_leggings",
+    "count": 1
+  }
+}

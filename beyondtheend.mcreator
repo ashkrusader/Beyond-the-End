@@ -668,6 +668,320 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "Enderite",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondtheend/models/item/enderite.json",
+          "src/main/java/net/mcreator/beyondtheend/item/EnderiteItem.java"
+        ]
+      },
+      "path": "~/Enderite"
+    },
+    {
+      "name": "EnderiteOre",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondtheend/forge/biome_modifier/enderite_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/beyondtheend/world/features/ores/EnderiteOreFeature.java",
+          "src/main/java/net/mcreator/beyondtheend/block/EnderiteOreBlock.java",
+          "src/main/resources/assets/beyondtheend/models/block/enderite_ore.json",
+          "src/main/resources/data/beyondtheend/worldgen/configured_feature/enderite_ore.json",
+          "src/main/resources/assets/beyondtheend/models/item/enderite_ore.json",
+          "src/main/resources/assets/beyondtheend/blockstates/enderite_ore.json",
+          "src/main/resources/data/beyondtheend/worldgen/placed_feature/enderite_ore.json"
+        ]
+      },
+      "path": "~/Enderite"
+    },
+    {
+      "name": "EnderiteBlock",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondtheend/block/EnderiteBlockBlock.java",
+          "src/main/resources/assets/beyondtheend/models/item/enderite_block.json",
+          "src/main/resources/assets/beyondtheend/blockstates/enderite_block.json",
+          "src/main/resources/assets/beyondtheend/models/block/enderite_block.json"
+        ]
+      },
+      "path": "~/Enderite"
+    },
+    {
+      "name": "EnderiteOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondtheend/recipes/enderite_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Enderite"
+    },
+    {
+      "name": "EnderiteBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondtheend/recipes/enderite_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Enderite"
+    },
+    {
+      "name": "EnderiteOreSmelting",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondtheend/recipes/enderite_ore_smelting.json"
+        ]
+      },
+      "path": "~/Enderite"
+    },
+    {
+      "name": "EnderitePickaxe",
+      "type": "tool",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondtheend/item/EnderitePickaxeItem.java",
+          "src/main/resources/assets/beyondtheend/models/item/enderite_pickaxe.json"
+        ]
+      },
+      "path": "~/Enderite"
+    },
+    {
+      "name": "EnderiteAxe",
+      "type": "tool",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondtheend/item/EnderiteAxeItem.java",
+          "src/main/resources/assets/beyondtheend/models/item/enderite_axe.json"
+        ]
+      },
+      "path": "~/Enderite"
+    },
+    {
+      "name": "EnderiteSword",
+      "type": "tool",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondtheend/models/item/enderite_sword.json",
+          "src/main/java/net/mcreator/beyondtheend/item/EnderiteSwordItem.java"
+        ]
+      },
+      "path": "~/Enderite"
+    },
+    {
+      "name": "EnderiteShovel",
+      "type": "tool",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondtheend/item/EnderiteShovelItem.java",
+          "src/main/resources/assets/beyondtheend/models/item/enderite_shovel.json"
+        ]
+      },
+      "path": "~/Enderite"
+    },
+    {
+      "name": "EnderiteHoe",
+      "type": "tool",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondtheend/item/EnderiteHoeItem.java",
+          "src/main/resources/assets/beyondtheend/models/item/enderite_hoe.json"
+        ]
+      },
+      "path": "~/Enderite"
+    },
+    {
+      "name": "EnderitePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondtheend/recipes/enderite_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Enderite"
+    },
+    {
+      "name": "EnderiteAxeRecipe",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondtheend/recipes/enderite_axe_recipe.json"
+        ]
+      },
+      "path": "~/Enderite"
+    },
+    {
+      "name": "EnderiteSwordRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondtheend/recipes/enderite_sword_recipe.json"
+        ]
+      },
+      "path": "~/Enderite"
+    },
+    {
+      "name": "EnderiteShovelRecipe",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondtheend/recipes/enderite_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Enderite"
+    },
+    {
+      "name": "EnderiteHoeRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondtheend/recipes/enderite_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Enderite"
+    },
+    {
+      "name": "EnderiteArmor",
+      "type": "armor",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondtheend/models/item/enderite_armor_boots.json",
+          "src/main/java/net/mcreator/beyondtheend/item/EnderiteArmorItem.java",
+          "src/main/resources/assets/beyondtheend/models/item/enderite_armor_chestplate.json",
+          "src/main/resources/assets/beyondtheend/models/item/enderite_armor_helmet.json",
+          "src/main/resources/assets/beyondtheend/models/item/enderite_armor_leggings.json"
+        ]
+      },
+      "path": "~/Enderite"
+    },
+    {
+      "name": "EnderiteArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondtheend/recipes/enderite_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Enderite"
+    },
+    {
+      "name": "EnderiteArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondtheend/recipes/enderite_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Enderite"
+    },
+    {
+      "name": "EnderiteArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondtheend/recipes/enderite_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Enderite"
+    },
+    {
+      "name": "EnderiteArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondtheend/recipes/enderite_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Enderite"
     }
   ],
   "variable_elements": [],
@@ -675,27 +989,39 @@
   "language_map": {
     "en_us": {
       "block.beyondtheend.beyond_willow_slab": "BeyondWillow Slab",
-      "block.beyondtheend.sporestem_fence_gate": "Sporestem Fence Gate",
-      "block.beyondtheend.sporestem_fence": "Sporestem Fence",
+      "item.beyondtheend.enderite_armor_chestplate": "Enderite Chestplate",
+      "item.beyondtheend.enderite": "Enderite",
+      "item.beyondtheend.enderite_armor_helmet": "Enderite Helmet",
+      "item.beyondtheend.enderite_armor_leggings": "Enderite Leggings",
       "block.beyondtheend.beyond_willow_fence_gate": "BeyondWillow Fence Gate",
+      "block.beyondtheend.enderite_ore": "Enderite Ore",
+      "item.beyondtheend.enderite_axe": "Enderite Axe",
+      "item.beyondtheend.tab_icon": "Tab Icon",
+      "block.beyondtheend.sporestem_planks": "Sporestem Planks",
+      "block.beyondtheend.beyond_willow_stairs": "BeyondWillow Stairs",
+      "item.beyondtheend.enderite_sword": "Enderite Sword",
+      "block.beyondtheend.enderite_block": "Block of Enderite",
+      "block.beyondtheend.sporestem_stairs": "Sporestem Stairs",
+      "block.beyondtheend.beyond_willow_leaves": "BeyondWillow Leaves",
+      "block.beyondtheend.sporestem_button": "Sporestem Button",
+      "item.beyondtheend.enderite_hoe": "Enderite Hoe",
+      "block.beyondtheend.sporestem_fence": "Sporestem Fence",
+      "block.beyondtheend.sporestem_fence_gate": "Sporestem Fence Gate",
+      "item.beyondtheend.enderite_pickaxe": "Enderite Pickaxe",
       "block.beyondtheend.beyond_willow_planks": "BeyondWillow Planks",
       "block.beyondtheend.beyond_willow_button": "BeyondWillow Button",
       "block.beyondtheend.sporestem_leaves": "Sporestem Leaves",
-      "block.beyondtheend.sporestem_wood": "Sporestem Wood",
       "block.beyondtheend.beyond_willow_fence": "BeyondWillow Fence",
-      "item.beyondtheend.tab_icon": "Tab Icon",
-      "block.beyondtheend.sporestem_planks": "Sporestem Planks",
+      "block.beyondtheend.sporestem_wood": "Sporestem Wood",
       "block.beyondtheend.beyond_willow_log": "BeyondWillow Log",
       "block.beyondtheend.beyond_willow_pressure_plate": "BeyondWillow Pressure Plate",
       "block.beyondtheend.beyond_willow_wood": "BeyondWillow Wood",
-      "block.beyondtheend.beyond_willow_stairs": "BeyondWillow Stairs",
       "block.beyondtheend.sporestem_pressure_plate": "Sporestem Pressure Plate",
       "item_group.beyondtheend.beyond_the_end": "Beyond the End",
+      "item.beyondtheend.enderite_shovel": "Enderite Shovel",
+      "item.beyondtheend.enderite_armor_boots": "Enderite Boots",
       "block.beyondtheend.sporestem_log": "Sporestem Log",
-      "block.beyondtheend.sporestem_stairs": "Sporestem Stairs",
-      "block.beyondtheend.sporestem_slab": "Sporestem Slab",
-      "block.beyondtheend.beyond_willow_leaves": "BeyondWillow Leaves",
-      "block.beyondtheend.sporestem_button": "Sporestem Button"
+      "block.beyondtheend.sporestem_slab": "Sporestem Slab"
     }
   },
   "foldersRoot": {
@@ -707,6 +1033,10 @@
       },
       {
         "name": "Beyond Willow",
+        "children": []
+      },
+      {
+        "name": "Enderite",
         "children": []
       }
     ]

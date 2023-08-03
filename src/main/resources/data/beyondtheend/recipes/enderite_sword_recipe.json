@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "beyondtheend:enderite"
+    },
+    "1": {
+      "item": "beyondtheend:enderite"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "beyondtheend:enderite_sword",
+    "count": 1
+  }
+}

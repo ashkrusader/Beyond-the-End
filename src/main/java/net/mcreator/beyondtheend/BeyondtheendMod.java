@@ -30,6 +30,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.beyondtheend.init.BeyondtheendModItems;
+import net.mcreator.beyondtheend.init.BeyondtheendModFeatures;
 import net.mcreator.beyondtheend.init.BeyondtheendModBlocks;
 
 import java.util.function.Supplier;
@@ -52,6 +53,8 @@ public class BeyondtheendMod {
 
 		BeyondtheendModBlocks.REGISTRY.register(bus);
 		BeyondtheendModItems.REGISTRY.register(bus);
+
+		BeyondtheendModFeatures.REGISTRY.register(bus);
 
 	}
 

@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "beyondtheend:item/enderite_sword"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "beyondtheend:enderite_block"
+    }
+  ],
+  "result": {
+    "item": "beyondtheend:enderite",
+    "count": 9
+  }
+}

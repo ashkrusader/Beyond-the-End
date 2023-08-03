@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "beyondtheend:block/enderite_ore_block",
+    "particle": "beyondtheend:block/enderite_ore_block"
+  },
+  "render_type": "solid"
+}

@@ -20,6 +20,8 @@ import net.mcreator.beyondtheend.block.SporestemLeavesBlock;
 import net.mcreator.beyondtheend.block.SporestemFenceGateBlock;
 import net.mcreator.beyondtheend.block.SporestemFenceBlock;
 import net.mcreator.beyondtheend.block.SporestemButtonBlock;
+import net.mcreator.beyondtheend.block.EnderiteOreBlock;
+import net.mcreator.beyondtheend.block.EnderiteBlockBlock;
 import net.mcreator.beyondtheend.block.BeyondWillowWoodBlock;
 import net.mcreator.beyondtheend.block.BeyondWillowStairsBlock;
 import net.mcreator.beyondtheend.block.BeyondWillowSlabBlock;
@@ -54,4 +56,6 @@ public class BeyondtheendModBlocks {
 	public static final RegistryObject<Block> BEYOND_WILLOW_FENCE_GATE = REGISTRY.register("beyond_willow_fence_gate", () -> new BeyondWillowFenceGateBlock());
 	public static final RegistryObject<Block> BEYOND_WILLOW_PRESSURE_PLATE = REGISTRY.register("beyond_willow_pressure_plate", () -> new BeyondWillowPressurePlateBlock());
 	public static final RegistryObject<Block> BEYOND_WILLOW_BUTTON = REGISTRY.register("beyond_willow_button", () -> new BeyondWillowButtonBlock());
+	public static final RegistryObject<Block> ENDERITE_ORE = REGISTRY.register("enderite_ore", () -> new EnderiteOreBlock());
+	public static final RegistryObject<Block> ENDERITE_BLOCK = REGISTRY.register("enderite_block", () -> new EnderiteBlockBlock());
 }

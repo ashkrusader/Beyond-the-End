@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "beyondtheend:enderite"
+    },
+    "2": {
+      "item": "beyondtheend:enderite"
+    },
+    "3": {
+      "item": "beyondtheend:enderite"
+    },
+    "5": {
+      "item": "beyondtheend:enderite"
+    }
+  },
+  "result": {
+    "item": "beyondtheend:enderite_armor_boots",
+    "count": 1
+  }
+}

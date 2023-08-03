@@ -9,11 +9,31 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.CreativeModeTabEvent;
 
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class BeyondtheendModTabs {
+	@SubscribeEvent
+	public static void buildTabContentsVanilla(CreativeModeTabEvent.BuildContents tabData) {
+
+		if (tabData.getTab() == CreativeModeTabs.COMBAT) {
+			tabData.accept(BeyondtheendModItems.ENDERITE_SWORD.get());
+			tabData.accept(BeyondtheendModItems.ENDERITE_ARMOR_HELMET.get());
+			tabData.accept(BeyondtheendModItems.ENDERITE_ARMOR_CHESTPLATE.get());
+			tabData.accept(BeyondtheendModItems.ENDERITE_ARMOR_LEGGINGS.get());
+			tabData.accept(BeyondtheendModItems.ENDERITE_ARMOR_BOOTS.get());
+		}
+
+		if (tabData.getTab() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(BeyondtheendModItems.ENDERITE_PICKAXE.get());
+			tabData.accept(BeyondtheendModItems.ENDERITE_AXE.get());
+			tabData.accept(BeyondtheendModItems.ENDERITE_SHOVEL.get());
+			tabData.accept(BeyondtheendModItems.ENDERITE_HOE.get());
+		}
+	}
+
 	@SubscribeEvent
 	public static void buildTabContentsModded(CreativeModeTabEvent.Register event) {
 		event.registerCreativeModeTab(new ResourceLocation("beyondtheend", "beyond_the_end"),
@@ -38,6 +58,9 @@ public class BeyondtheendModTabs {
 					tabData.accept(BeyondtheendModBlocks.BEYOND_WILLOW_FENCE_GATE.get().asItem());
 					tabData.accept(BeyondtheendModBlocks.BEYOND_WILLOW_PRESSURE_PLATE.get().asItem());
 					tabData.accept(BeyondtheendModBlocks.BEYOND_WILLOW_BUTTON.get().asItem());
+					tabData.accept(BeyondtheendModBlocks.ENDERITE_ORE.get().asItem());
+					tabData.accept(BeyondtheendModItems.ENDERITE.get());
+					tabData.accept(BeyondtheendModBlocks.ENDERITE_BLOCK.get().asItem());
 				})
 
 		);
