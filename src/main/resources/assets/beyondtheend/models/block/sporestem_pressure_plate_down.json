@@ -1,0 +1,7 @@
+{
+  "parent": "block/pressure_plate_down",
+  "textures": {
+    "texture": "beyondtheend:block/sporestem_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "beyondtheend:block/sporestem_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "beyondtheend:block/sporestem_wood"
+    },
+    "axis=z": {
+      "model": "beyondtheend:block/sporestem_wood",
+      "x": 90
+    }
+  }
+}

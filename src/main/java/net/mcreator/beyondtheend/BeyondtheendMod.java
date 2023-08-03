@@ -29,6 +29,9 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.beyondtheend.init.BeyondtheendModItems;
+import net.mcreator.beyondtheend.init.BeyondtheendModBlocks;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -46,6 +49,9 @@ public class BeyondtheendMod {
 	public BeyondtheendMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		BeyondtheendModBlocks.REGISTRY.register(bus);
+		BeyondtheendModItems.REGISTRY.register(bus);
 
 	}
 

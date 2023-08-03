@@ -1,0 +1,21 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:SporestemWood"
+      },
+      {
+        "value": "CUSTOM:SporestemLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "sporestem_log",
+    "namespace": "forge"
+  }
+}

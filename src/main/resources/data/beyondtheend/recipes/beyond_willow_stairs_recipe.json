@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_stairs",
+  "category": "building",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "beyondtheend:beyond_willow_planks"
+    },
+    "3": {
+      "item": "beyondtheend:beyond_willow_planks"
+    },
+    "4": {
+      "item": "beyondtheend:beyond_willow_planks"
+    },
+    "6": {
+      "item": "beyondtheend:beyond_willow_planks"
+    },
+    "7": {
+      "item": "beyondtheend:beyond_willow_planks"
+    },
+    "8": {
+      "item": "beyondtheend:beyond_willow_planks"
+    }
+  },
+  "result": {
+    "item": "beyondtheend:beyond_willow_stairs",
+    "count": 4
+  }
+}

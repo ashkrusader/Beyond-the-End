@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "beyondtheend:block/beyondwillow_planks",
+    "top": "beyondtheend:block/beyondwillow_planks",
+    "side": "beyondtheend:block/beyondwillow_planks"
+  },
+  "render_type": "solid"
+}

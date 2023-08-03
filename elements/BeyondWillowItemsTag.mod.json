@@ -1,0 +1,21 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:BeyondWillowWood"
+      },
+      {
+        "value": "CUSTOM:BeyondWillowLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "beyondwillow_log",
+    "namespace": "forge"
+  }
+}

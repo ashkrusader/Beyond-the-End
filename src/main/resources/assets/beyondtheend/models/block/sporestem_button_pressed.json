@@ -1,0 +1,7 @@
+{
+  "parent": "block/button_pressed",
+  "textures": {
+    "texture": "beyondtheend:block/sporestem_planks"
+  },
+  "render_type": "solid"
+}

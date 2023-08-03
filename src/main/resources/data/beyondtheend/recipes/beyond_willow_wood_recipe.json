@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "category": "building",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "beyondtheend:beyond_willow_log"
+    },
+    "1": {
+      "item": "beyondtheend:beyond_willow_log"
+    },
+    "2": {
+      "item": "beyondtheend:beyond_willow_log"
+    },
+    "3": {
+      "item": "beyondtheend:beyond_willow_log"
+    }
+  },
+  "result": {
+    "item": "beyondtheend:beyond_willow_wood",
+    "count": 3
+  }
+}

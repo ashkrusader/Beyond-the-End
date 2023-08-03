@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "beyondtheend:block/sporestem_leaves",
+    "particle": "beyondtheend:block/sporestem_leaves"
+  }
+}

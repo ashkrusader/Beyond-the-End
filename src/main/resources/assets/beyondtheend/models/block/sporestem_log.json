@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "beyondtheend:block/sporestem_log_top",
+    "up": "beyondtheend:block/sporestem_log_top",
+    "north": "beyondtheend:block/sporestem_log_side",
+    "east": "beyondtheend:block/sporestem_log_side",
+    "south": "beyondtheend:block/sporestem_log_side",
+    "west": "beyondtheend:block/sporestem_log_side",
+    "particle": "beyondtheend:block/sporestem_log_top"
+  },
+  "render_type": "solid"
+}

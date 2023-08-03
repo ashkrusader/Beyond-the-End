@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_fence",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "beyondtheend:beyond_willow_planks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "beyondtheend:beyond_willow_planks"
+    },
+    "3": {
+      "item": "beyondtheend:beyond_willow_planks"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "beyondtheend:beyond_willow_planks"
+    }
+  },
+  "result": {
+    "item": "beyondtheend:beyond_willow_fence",
+    "count": 3
+  }
+}

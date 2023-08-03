@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "beyondtheend:block/beyond_willow_slab"
+    },
+    "type=top": {
+      "model": "beyondtheend:block/beyond_willow_slab_top"
+    },
+    "type=double": {
+      "model": "beyondtheend:block/beyond_willow_slab_full"
+    }
+  }
+}

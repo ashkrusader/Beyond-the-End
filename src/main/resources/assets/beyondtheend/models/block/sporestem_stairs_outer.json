@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "beyondtheend:block/sporestem_planks",
+    "top": "beyondtheend:block/sporestem_planks",
+    "side": "beyondtheend:block/sporestem_planks"
+  },
+  "render_type": "solid"
+}

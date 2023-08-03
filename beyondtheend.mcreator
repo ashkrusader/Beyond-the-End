@@ -1,9 +1,635 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "SporestemWood",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sporestem_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondtheend/blockstates/sporestem_wood.json",
+          "src/main/java/net/mcreator/beyondtheend/block/SporestemWoodBlock.java",
+          "src/main/resources/assets/beyondtheend/models/item/sporestem_wood.json",
+          "src/main/resources/assets/beyondtheend/models/block/sporestem_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "SporestemLog",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sporestem_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondtheend/models/block/sporestem_log.json",
+          "src/main/java/net/mcreator/beyondtheend/block/SporestemLogBlock.java",
+          "src/main/resources/assets/beyondtheend/models/item/sporestem_log.json",
+          "src/main/resources/assets/beyondtheend/blockstates/sporestem_log.json"
+        ]
+      }
+    },
+    {
+      "name": "SporestemPlanks",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sporestem_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondtheend/models/item/sporestem_planks.json",
+          "src/main/resources/assets/beyondtheend/blockstates/sporestem_planks.json",
+          "src/main/resources/assets/beyondtheend/models/block/sporestem_planks.json",
+          "src/main/java/net/mcreator/beyondtheend/block/SporestemPlanksBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "SporestemLeaves",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sporestem_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondtheend/blockstates/sporestem_leaves.json",
+          "src/main/resources/assets/beyondtheend/models/item/sporestem_leaves.json",
+          "src/main/java/net/mcreator/beyondtheend/block/SporestemLeavesBlock.java",
+          "src/main/resources/assets/beyondtheend/models/block/sporestem_leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "SporestemStairs",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sporestem_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondtheend/models/block/sporestem_stairs_outer.json",
+          "src/main/java/net/mcreator/beyondtheend/block/SporestemStairsBlock.java",
+          "src/main/resources/assets/beyondtheend/models/item/sporestem_stairs.json",
+          "src/main/resources/assets/beyondtheend/blockstates/sporestem_stairs.json",
+          "src/main/resources/assets/beyondtheend/models/block/sporestem_stairs.json",
+          "src/main/resources/assets/beyondtheend/models/block/sporestem_stairs_inner.json"
+        ]
+      }
+    },
+    {
+      "name": "SporestemSlab",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sporestem_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondtheend/blockstates/sporestem_slab.json",
+          "src/main/resources/assets/beyondtheend/models/block/sporestem_slab_top.json",
+          "src/main/resources/assets/beyondtheend/models/block/sporestem_slab_full.json",
+          "src/main/resources/assets/beyondtheend/models/block/sporestem_slab.json",
+          "src/main/resources/assets/beyondtheend/models/item/sporestem_slab.json",
+          "src/main/java/net/mcreator/beyondtheend/block/SporestemSlabBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "SporestemFence",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sporestem_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondtheend/models/block/sporestem_fence.json",
+          "src/main/resources/assets/beyondtheend/models/block/sporestem_fence_post.json",
+          "src/main/resources/assets/beyondtheend/models/block/sporestem_fence_inventory.json",
+          "src/main/java/net/mcreator/beyondtheend/block/SporestemFenceBlock.java",
+          "src/main/resources/assets/beyondtheend/blockstates/sporestem_fence.json",
+          "src/main/resources/assets/beyondtheend/models/item/sporestem_fence.json"
+        ]
+      }
+    },
+    {
+      "name": "SporestemFenceGate",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sporestem_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondtheend/models/item/sporestem_fence_gate.json",
+          "src/main/resources/assets/beyondtheend/blockstates/sporestem_fence_gate.json",
+          "src/main/resources/assets/beyondtheend/models/block/sporestem_fence_gate.json",
+          "src/main/resources/assets/beyondtheend/models/block/sporestem_fence_gate_open.json",
+          "src/main/resources/assets/beyondtheend/models/block/sporestem_fence_gate_wall_open.json",
+          "src/main/resources/assets/beyondtheend/models/block/sporestem_fence_gate_wall.json",
+          "src/main/java/net/mcreator/beyondtheend/block/SporestemFenceGateBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "SporestemPressurePlate",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sporestem_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondtheend/models/block/sporestem_pressure_plate.json",
+          "src/main/resources/assets/beyondtheend/models/block/sporestem_pressure_plate_down.json",
+          "src/main/resources/assets/beyondtheend/blockstates/sporestem_pressure_plate.json",
+          "src/main/java/net/mcreator/beyondtheend/block/SporestemPressurePlateBlock.java",
+          "src/main/resources/assets/beyondtheend/models/item/sporestem_pressure_plate.json"
+        ]
+      }
+    },
+    {
+      "name": "SporestemButton",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sporestem_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondtheend/models/block/sporestem_button_inventory.json",
+          "src/main/resources/assets/beyondtheend/blockstates/sporestem_button.json",
+          "src/main/java/net/mcreator/beyondtheend/block/SporestemButtonBlock.java",
+          "src/main/resources/assets/beyondtheend/models/item/sporestem_button.json",
+          "src/main/resources/assets/beyondtheend/models/block/sporestem_button.json",
+          "src/main/resources/assets/beyondtheend/models/block/sporestem_button_pressed.json"
+        ]
+      }
+    },
+    {
+      "name": "SporestemItemsTag",
+      "type": "tag",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sporestem_items_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/sporestem_log.json"
+        ]
+      }
+    },
+    {
+      "name": "SporestemWoodRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sporestem_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondtheend/recipes/sporestem_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SporestemPlanksRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sporestem_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondtheend/recipes/sporestem_planks_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SporestemStairsRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sporestem_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondtheend/recipes/sporestem_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SporestemSlabRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sporestem_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondtheend/recipes/sporestem_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SporestemFenceRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sporestem_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondtheend/recipes/sporestem_fence_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SporestemFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sporestem_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondtheend/recipes/sporestem_fence_gate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SporestemPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sporestem_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondtheend/recipes/sporestem_pressure_plate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SporestemButtonRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sporestem_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondtheend/recipes/sporestem_button_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SporestemStickRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sporestem_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondtheend/recipes/sporestem_stick_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BeyondWillowWood",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beyond_willow_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondtheend/blockstates/beyond_willow_wood.json",
+          "src/main/java/net/mcreator/beyondtheend/block/BeyondWillowWoodBlock.java",
+          "src/main/resources/assets/beyondtheend/models/block/beyond_willow_wood.json",
+          "src/main/resources/assets/beyondtheend/models/item/beyond_willow_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "BeyondWillowLog",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beyond_willow_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondtheend/block/BeyondWillowLogBlock.java",
+          "src/main/resources/assets/beyondtheend/blockstates/beyond_willow_log.json",
+          "src/main/resources/assets/beyondtheend/models/item/beyond_willow_log.json",
+          "src/main/resources/assets/beyondtheend/models/block/beyond_willow_log.json"
+        ]
+      }
+    },
+    {
+      "name": "BeyondWillowPlanks",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beyond_willow_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondtheend/models/item/beyond_willow_planks.json",
+          "src/main/java/net/mcreator/beyondtheend/block/BeyondWillowPlanksBlock.java",
+          "src/main/resources/assets/beyondtheend/blockstates/beyond_willow_planks.json",
+          "src/main/resources/assets/beyondtheend/models/block/beyond_willow_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "BeyondWillowLeaves",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beyond_willow_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondtheend/models/item/beyond_willow_leaves.json",
+          "src/main/resources/assets/beyondtheend/models/block/beyond_willow_leaves.json",
+          "src/main/java/net/mcreator/beyondtheend/block/BeyondWillowLeavesBlock.java",
+          "src/main/resources/assets/beyondtheend/blockstates/beyond_willow_leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "BeyondWillowStairs",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beyond_willow_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondtheend/block/BeyondWillowStairsBlock.java",
+          "src/main/resources/assets/beyondtheend/models/block/beyond_willow_stairs.json",
+          "src/main/resources/assets/beyondtheend/models/block/beyond_willow_stairs_inner.json",
+          "src/main/resources/assets/beyondtheend/models/block/beyond_willow_stairs_outer.json",
+          "src/main/resources/assets/beyondtheend/models/item/beyond_willow_stairs.json",
+          "src/main/resources/assets/beyondtheend/blockstates/beyond_willow_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "BeyondWillowSlab",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beyond_willow_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondtheend/models/block/beyond_willow_slab.json",
+          "src/main/java/net/mcreator/beyondtheend/block/BeyondWillowSlabBlock.java",
+          "src/main/resources/assets/beyondtheend/blockstates/beyond_willow_slab.json",
+          "src/main/resources/assets/beyondtheend/models/item/beyond_willow_slab.json",
+          "src/main/resources/assets/beyondtheend/models/block/beyond_willow_slab_top.json",
+          "src/main/resources/assets/beyondtheend/models/block/beyond_willow_slab_full.json"
+        ]
+      }
+    },
+    {
+      "name": "BeyondWillowFence",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beyond_willow_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondtheend/models/block/beyond_willow_fence_post.json",
+          "src/main/resources/assets/beyondtheend/models/block/beyond_willow_fence_inventory.json",
+          "src/main/resources/assets/beyondtheend/blockstates/beyond_willow_fence.json",
+          "src/main/resources/assets/beyondtheend/models/item/beyond_willow_fence.json",
+          "src/main/java/net/mcreator/beyondtheend/block/BeyondWillowFenceBlock.java",
+          "src/main/resources/assets/beyondtheend/models/block/beyond_willow_fence.json"
+        ]
+      }
+    },
+    {
+      "name": "BeyondWillowFenceGate",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beyond_willow_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondtheend/models/block/beyond_willow_fence_gate_open.json",
+          "src/main/resources/assets/beyondtheend/models/block/beyond_willow_fence_gate.json",
+          "src/main/resources/assets/beyondtheend/models/item/beyond_willow_fence_gate.json",
+          "src/main/java/net/mcreator/beyondtheend/block/BeyondWillowFenceGateBlock.java",
+          "src/main/resources/assets/beyondtheend/blockstates/beyond_willow_fence_gate.json",
+          "src/main/resources/assets/beyondtheend/models/block/beyond_willow_fence_gate_wall.json",
+          "src/main/resources/assets/beyondtheend/models/block/beyond_willow_fence_gate_wall_open.json"
+        ]
+      }
+    },
+    {
+      "name": "BeyondWillowPressurePlate",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beyond_willow_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beyondtheend/block/BeyondWillowPressurePlateBlock.java",
+          "src/main/resources/assets/beyondtheend/models/block/beyond_willow_pressure_plate.json",
+          "src/main/resources/assets/beyondtheend/blockstates/beyond_willow_pressure_plate.json",
+          "src/main/resources/assets/beyondtheend/models/block/beyond_willow_pressure_plate_down.json",
+          "src/main/resources/assets/beyondtheend/models/item/beyond_willow_pressure_plate.json"
+        ]
+      }
+    },
+    {
+      "name": "BeyondWillowButton",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beyond_willow_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beyondtheend/models/block/beyond_willow_button_inventory.json",
+          "src/main/java/net/mcreator/beyondtheend/block/BeyondWillowButtonBlock.java",
+          "src/main/resources/assets/beyondtheend/models/item/beyond_willow_button.json",
+          "src/main/resources/assets/beyondtheend/blockstates/beyond_willow_button.json",
+          "src/main/resources/assets/beyondtheend/models/block/beyond_willow_button_pressed.json",
+          "src/main/resources/assets/beyondtheend/models/block/beyond_willow_button.json"
+        ]
+      }
+    },
+    {
+      "name": "BeyondWillowItemsTag",
+      "type": "tag",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beyond_willow_items_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/beyondwillow_log.json"
+        ]
+      }
+    },
+    {
+      "name": "BeyondWillowWoodRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beyond_willow_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondtheend/recipes/beyond_willow_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BeyondWillowPlanksRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beyond_willow_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondtheend/recipes/beyond_willow_planks_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BeyondWillowStairsRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beyond_willow_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondtheend/recipes/beyond_willow_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BeyondWillowSlabRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beyond_willow_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondtheend/recipes/beyond_willow_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BeyondWillowFenceRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beyond_willow_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondtheend/recipes/beyond_willow_fence_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BeyondWillowFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beyond_willow_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondtheend/recipes/beyond_willow_fence_gate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BeyondWillowPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beyond_willow_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondtheend/recipes/beyond_willow_pressure_plate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BeyondWillowButtonRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beyond_willow_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondtheend/recipes/beyond_willow_button_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BeyondWillowStickRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beyond_willow_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beyondtheend/recipes/beyond_willow_stick_recipe.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.beyondtheend.beyond_willow_slab": "BeyondWillow Slab",
+      "block.beyondtheend.sporestem_fence_gate": "Sporestem Fence Gate",
+      "block.beyondtheend.sporestem_fence": "Sporestem Fence",
+      "block.beyondtheend.beyond_willow_fence_gate": "BeyondWillow Fence Gate",
+      "block.beyondtheend.beyond_willow_planks": "BeyondWillow Planks",
+      "block.beyondtheend.beyond_willow_button": "BeyondWillow Button",
+      "block.beyondtheend.sporestem_leaves": "Sporestem Leaves",
+      "block.beyondtheend.sporestem_wood": "Sporestem Wood",
+      "block.beyondtheend.beyond_willow_fence": "BeyondWillow Fence",
+      "block.beyondtheend.sporestem_planks": "Sporestem Planks",
+      "block.beyondtheend.beyond_willow_log": "BeyondWillow Log",
+      "block.beyondtheend.beyond_willow_pressure_plate": "BeyondWillow Pressure Plate",
+      "block.beyondtheend.beyond_willow_wood": "BeyondWillow Wood",
+      "block.beyondtheend.beyond_willow_stairs": "BeyondWillow Stairs",
+      "block.beyondtheend.sporestem_pressure_plate": "Sporestem Pressure Plate",
+      "block.beyondtheend.sporestem_log": "Sporestem Log",
+      "block.beyondtheend.sporestem_stairs": "Sporestem Stairs",
+      "block.beyondtheend.sporestem_slab": "Sporestem Slab",
+      "block.beyondtheend.beyond_willow_leaves": "BeyondWillow Leaves",
+      "block.beyondtheend.sporestem_button": "Sporestem Button"
+    }
   },
   "foldersRoot": {
     "name": "~",

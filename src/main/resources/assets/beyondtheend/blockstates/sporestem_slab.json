@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "beyondtheend:block/sporestem_slab"
+    },
+    "type=top": {
+      "model": "beyondtheend:block/sporestem_slab_top"
+    },
+    "type=double": {
+      "model": "beyondtheend:block/sporestem_slab_full"
+    }
+  }
+}

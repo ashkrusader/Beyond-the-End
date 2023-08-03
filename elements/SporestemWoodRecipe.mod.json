@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "bark",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SporestemLog"
+      },
+      {
+        "value": "CUSTOM:SporestemLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SporestemLog"
+      },
+      {
+        "value": "CUSTOM:SporestemLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SporestemWood"
+    },
+    "name": "sporestem_wood_recipe",
+    "namespace": "mod"
+  }
+}

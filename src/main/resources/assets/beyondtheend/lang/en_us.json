@@ -1,1 +1,22 @@
-{}
+{
+  "block.beyondtheend.beyond_willow_slab": "BeyondWillow Slab",
+  "block.beyondtheend.sporestem_fence_gate": "Sporestem Fence Gate",
+  "block.beyondtheend.sporestem_fence": "Sporestem Fence",
+  "block.beyondtheend.beyond_willow_fence_gate": "BeyondWillow Fence Gate",
+  "block.beyondtheend.beyond_willow_planks": "BeyondWillow Planks",
+  "block.beyondtheend.beyond_willow_button": "BeyondWillow Button",
+  "block.beyondtheend.sporestem_leaves": "Sporestem Leaves",
+  "block.beyondtheend.sporestem_wood": "Sporestem Wood",
+  "block.beyondtheend.beyond_willow_fence": "BeyondWillow Fence",
+  "block.beyondtheend.sporestem_planks": "Sporestem Planks",
+  "block.beyondtheend.beyond_willow_log": "BeyondWillow Log",
+  "block.beyondtheend.beyond_willow_pressure_plate": "BeyondWillow Pressure Plate",
+  "block.beyondtheend.beyond_willow_wood": "BeyondWillow Wood",
+  "block.beyondtheend.beyond_willow_stairs": "BeyondWillow Stairs",
+  "block.beyondtheend.sporestem_pressure_plate": "Sporestem Pressure Plate",
+  "block.beyondtheend.sporestem_log": "Sporestem Log",
+  "block.beyondtheend.sporestem_stairs": "Sporestem Stairs",
+  "block.beyondtheend.sporestem_slab": "Sporestem Slab",
+  "block.beyondtheend.beyond_willow_leaves": "BeyondWillow Leaves",
+  "block.beyondtheend.sporestem_button": "Sporestem Button"
+}

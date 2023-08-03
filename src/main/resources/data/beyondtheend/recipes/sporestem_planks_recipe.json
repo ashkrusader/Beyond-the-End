@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "tag": "forge:sporestem_log"
+    }
+  ],
+  "result": {
+    "item": "beyondtheend:sporestem_planks",
+    "count": 4
+  }
+}
